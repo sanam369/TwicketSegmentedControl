@@ -174,7 +174,7 @@ open class TwicketSegmentedControl: UIControl {
         [backgroundView, selectedContainerView].forEach { $0.layer.cornerRadius = cornerRadius }
         sliderView.cornerRadius = cornerRadius
 
-        backgroundColor = .white
+        backgroundColor = #colorLiteral(red: 0.9764705882, green: 0.7882352941, blue: 0.3333333333, alpha: 1)
         backgroundView.backgroundColor = segmentsBackgroundColor
         selectedContainerView.backgroundColor = sliderBackgroundColor
 
